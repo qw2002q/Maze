@@ -1,0 +1,12 @@
+#aside-word-disappear{
+  font-size: 24px;
+  transform: translateY(-20px);
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+#S:hover{
+  opacity: 0.8;
+}
+#E:hover{
+  opacity: 0.8;
+}

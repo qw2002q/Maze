@@ -1,0 +1,121 @@
+/*Boxes*/
+.boxes{
+  background-color: rgb(238, 238, 238);
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*inset border*/
+}
+
+#box1{
+  width: 190px;
+  height: 60px;
+  border-width: 1.5px 0px 0px 1.5px;
+  border-color: black;
+  border-style: solid;
+}
+
+#box2{
+  width: 220px;
+  height: 60px;
+  border-width: 1.5px 0px 1.5px 0px;
+  border-color: black;
+  border-style: solid;
+}
+
+#box3{
+  width: 190px;
+  height: 60px;
+  border-width: 1.5px 1.5px 0px 0px;
+  border-color: black;
+  border-style: solid;
+}
+
+#box4{
+  width: 192px;
+  height: 180px;
+  border-width: 0px 1.5px 1.5px 1.5px;
+  border-color: black;
+  border-style: solid;
+}
+
+#box5{
+  width: 191px;
+  height: 180px;
+  border-width: 0px 1.5px 1.5px 1.5px;
+  border-color: black;
+  border-style: solid;
+  transform: translateX(217px);
+}
+
+#S{
+  width: 56px;
+  height: 56px;
+  line-height: 56px;  /*make the "S" vertical to the div, when line-height = height*/
+  overflow: hidden;
+  margin-top: 1px;
+  margin-bottom: 2px;
+  border:1.5px black solid;
+  margin-top: 2px;
+  background-color: rgb(130, 255, 125);
+  transform: translateY(-1px);
+
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#box6{
+  width: 100px;
+  height: 182px;
+  border-width: 1.5px 1.5px 0px 1.5px;
+  border-color: black;
+  border-style: solid;
+  transform: translateX(250px) translateY(-182px);
+}
+
+#E{
+  width: 56px;
+  height: 56px;
+  line-height: 56px;  /*make the "E" vertical to the div, when line-height = height*/
+  overflow: hidden;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border:1.5px black solid;
+  margin-top: 2px;
+  background-color: rgb(135, 130, 255);
+  transform: translateX(541px) translateY(-246px);
+
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#linebox2{
+  transform: translateY(-247px);
+}
+
+#box7{
+  width: 250px;
+  height: 58px;
+  border-width: 1.5px 0px 1.5px 1.5px;
+  border-color: black;
+  border-style: solid;
+}
+
+#box8{
+  width: 100px;
+  height: 57px;
+  border-width: 0px 0px 1.5px 0px;
+  border-color: black;
+  border-style: solid;
+}
+
+#box9{
+  width: 250px;
+  height: 58px;
+  border-width: 1.5px 1.5px 1.5px 0px;
+  border-color: black;
+  border-style: solid;
+  transform: translateX(-0.5px);
+}
