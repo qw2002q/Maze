@@ -37,6 +37,7 @@ function EndGame()
       text.innerText = "Don't cheat, you should start form the 'S'"
       + " and move to the 'E' inside the maze!";
       text.id = 'aside-word';
+      gameStart = false;
       return;
     }
     var text = document.getElementById('aside-word-disappear');
